@@ -1,0 +1,168 @@
+.footer {
+  background-color: #0a1128; 
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.startfooter {
+  background-color: #004f64; 
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+ 
+}
+
+.startfooter h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.inputcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap; 
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.inputcontainer input {
+  flex: 1;
+  min-width: 200px; 
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.inputcontainer button {
+  padding: 10px 20px;
+  border:none;
+  border-radius: 5px;
+  background-color: #003947;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.inputcontainer button:hover {
+  background-color: #007a8a;
+}
+
+.Pages {
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: left;
+  margin-left: 5%;
+  gap: 15px; 
+}
+
+.Pages a {
+  margin: 0; 
+  padding: 5px 0;
+  color: white;
+  text-decoration: none;
+}
+
+.Pages a:hover {
+  color: #00bcd4;
+}
+
+.partitionLine {
+  width: 100%;
+  height: 1px; 
+  background-color: rgb(108, 108, 108); 
+}
+
+.pclubfooter {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.logo {
+  width: 50px; 
+  height: 50px;
+  margin-right: 10px; 
+}
+
+.clubName {
+  font-size: 24px; 
+  font-weight: bold;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center; 
+  gap: 15px; 
+}
+
+
+.socialIcons a {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  transform: scale(1.1);
+}
+
+.socialIcons a > svg {
+  width: 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 20px 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  }
+
+  .startfooter {
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .startfooter h2 {
+    font-size: 16px;
+  }
+
+  .inputcontainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .inputcontainer input,
+  .inputcontainer button {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Pages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pclubfooter .logo {
+    width: 40px;
+  }
+
+  .pclubfooter .clubName {
+    font-size: 14px;
+  }
+
+  .socialIcons a > svg {
+    width: 28px;
+    height: 28px;
+  }
+}

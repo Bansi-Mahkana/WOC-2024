@@ -1,0 +1,64 @@
+/* src/components/Contact/Contact.css */
+.contact-section {
+  width: 100%;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10rem;
+}
+
+.contact-form-container {
+  width: 536px;
+  height: 536px;
+  top: 4038px;
+  left: 57px;
+  margin: 0 auto;
+  color: #004457;
+}
+
+/* Style form inputs to match dark theme */
+input, textarea {
+  background-color: #0A192F;
+  border: 1px solid #00C8FF;
+  color: #00C8FF;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Ensure form labels are visible */
+label {
+  color: #00C8FF;
+}
+
+.contact-title {
+  color: #00C8FF;
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  font-family: Inter;
+  line-height: 108.92px;
+}
+
+.social-icons-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}

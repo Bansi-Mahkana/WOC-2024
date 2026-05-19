@@ -10,7 +10,7 @@ This guide will walk you through the steps to get the project up and running on 
 
 Before setting up the project, ensure you have the following installed on your system:
 
-- [Node.js](https://nodejs.org/) (v18 or later)
+- [Node.js](https://nodejs.org/) **(v18 or later) (preferred any version >= 20)**
 - [npm](https://www.npmjs.com/) (comes bundled with Node.js i.e. you do not need to install this seperately)
 - [Git](https://git-scm.com/downloads)
 
@@ -63,6 +63,17 @@ If you are looking forward to contributing, please create a new *branch* before 
      ```bash
      git checkout -b add-navbar
      ```
+
+---
+
+### Note:
+
+Try to make sure you are working on latest codebase 
+
+- For this before working on any issue, you can headover to your forked repository and check for whether something like `update branch` is written there, make sure you update your branch with `Sync Fork` option (Make sure your branch is selected as `main` there)
+
+---
+
 
 You are all set now to make your changes. If there are any problem, feel free to contact us.
    

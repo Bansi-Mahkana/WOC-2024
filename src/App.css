@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-.parent-container {
-    height: 100vh;
-    width: 100vw;
+.main{
     background-color: rgba(12, 18, 36, 1);
+    height: 100vh;
 }
